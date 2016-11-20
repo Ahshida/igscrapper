@@ -21,7 +21,7 @@ access_token = os.getenv("987767.1677ed0.2c3833e9edbb4c4f86f6b9e34f59d4d0")
 hashtag = raw_input("What hashtag would you like to download photos of? ")
 
 # url to query for pictures
-nextUrl = "https://api.instagram.com/v1/tags/"+hashtag+"/media/recent?access_token="+access_token
+nextUrl = "https://api.instagram.com/v1/tags/"+hashtag+"/media/recent?access_token="+987767.1677ed0.2c3833e9edbb4c4f86f6b9e34f59d4d0
 print nextUrl
 # while there is a next url to go to
 while nextUrl:
